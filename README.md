@@ -114,7 +114,7 @@ Safety Gap: Only ~25% of hotels offer 24h security or first-aid, highlighting a 
 ##📸 App Interface Screenshots
 ### Main Interface
 
-![Main Interface](images/main.png)
+![Main Interface](images/main_interface.png)
 
 
 
