@@ -1,7 +1,5 @@
 🏨 AI-Powered Hotel Recommendation System
 
-![System Architecture](images/image20%(1).png)
-
 📌 Overview
 
 This project is an End-to-End Data Engineering & AI Pipeline designed to analyze hotel data in Portugal. It moves beyond simple filtering by using Deep Learning and Natural Language Processing (NLP) to predict hotel quality and generate personalized recommendations based on location, amenities, and sentiment analysis.
@@ -12,25 +10,29 @@ The system scrapes raw data, processes it through a distributed ETL pipeline (Sp
 
 The project follows a modular 4-stage architecture:
 
-Extraction (Scraping): * Tools: Selenium, Undetected Chromedriver, BeautifulSoup.
+1. Extraction (Scraping)
+
+Tools: Selenium, Undetected Chromedriver, BeautifulSoup.
 
 Task: Scraped 100+ hotels and thousands of reviews, handling anti-bot protections.
 
-ETL & Transformation:
+2. ETL & Transformation
 
 Tools: Apache Spark (PySpark), HDFS, Pandas.
 
 Task: Cleaned data, standardized dates, geocoded locations (OpenCage), and engineered features (One-Hot Encoding for amenities).
 
-AI & Model Training:
+3. AI & Model Training
 
 Tools: TensorFlow/Keras, Scikit-learn, Hugging Face (BERT).
 
-Task: * NLP: Analyzed review sentiment using Multilingual BERT.
+Task:
+
+NLP: Analyzed review sentiment using Multilingual BERT.
 
 Imputation: Compared 5 strategies (KNN, Mean, Delete, etc.) and trained a Neural Network to predict quality scores for hotels with missing ratings.
 
-Deployment (Web App):
+4. Deployment (Web App)
 
 Tools: Flask, Leaflet.js, HTML/CSS.
 
@@ -51,10 +53,7 @@ RMSE: Low error rate indicating precise predictions.
 Accuracy (±1 Star): High business accuracy.
 
 Performance Visualization:
-
 The chart below shows the clear advantage of the selected strategy over statistical imputation (Mean/Mode).
-
-![Model Comparison](images/Screenshot20%2025-11-2820%204637.png)
 
 📈 Actual vs. Predicted
 
@@ -76,8 +75,8 @@ Apache Spark (for ETL steps)
 
 1. Clone the Repository
 
-git clone [[https://github.com/yourusername/hotel-ai-system.git](https://github.com/KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-)](https://github.com/yourusername/hotel-ai-system.git)
-cd hotel-ai-system
+git clone [https://github.com/KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-](https://github.com/KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-)
+cd An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-
 
 
 2. Install Dependencies
@@ -124,21 +123,25 @@ Safety Gap: Only ~25% of hotels offer 24h security or first-aid, highlighting a 
 
 📸 App Interface Screenshots
 
-Search & Map View
+Search & Map View | NLP Smart Search
 
-NLP Smart Search
+Main Interface
 
-![Main Interface](images/Screenshot20%2025-11-3020%160150.jpg)
+Smart Search
 
-![Smart Search](images/Screenshot20%2025-11-3020%160108.jpg)
+
+
+
+
+Filter Results | Hotel Details Page
 
 Filter Results
 
-Hotel Details Page
+Hotel Details
 
-![Results](images/Screenshot20%2025-11-3020%160239.jpg)
 
-![Details](images/Screenshot20%2025-11-3020%155955.jpg)
+
+
 
 🤝 Contributing
 
