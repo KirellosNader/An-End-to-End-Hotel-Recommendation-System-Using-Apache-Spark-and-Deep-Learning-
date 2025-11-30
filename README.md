@@ -1,6 +1,6 @@
 🏨 AI-Powered Hotel Recommendation System
 
-![System Architecture]('images/image (1).png')
+![System Architecture](images/image20%(1).png)
 
 📌 Overview
 
@@ -54,7 +54,7 @@ Performance Visualization:
 
 The chart below shows the clear advantage of the selected strategy over statistical imputation (Mean/Mode).
 
-![Model Comparison](images/Screenshot 2025-11-28 204637.png)
+![Model Comparison](images/Screenshot20%2025-11-2820%204637.png)
 
 📈 Actual vs. Predicted
 
@@ -76,7 +76,7 @@ Apache Spark (for ETL steps)
 
 1. Clone the Repository
 
-git clone [https://github.com/yourusername/hotel-ai-system.git](https://github.com/yourusername/hotel-ai-system.git)
+git clone [[https://github.com/yourusername/hotel-ai-system.git](https://github.com/KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-)](https://github.com/yourusername/hotel-ai-system.git)
 cd hotel-ai-system
 
 
@@ -128,17 +128,17 @@ Search & Map View
 
 NLP Smart Search
 
-![Main Interface](images/Screenshot 2025-11-30 160150.jpg)
+![Main Interface](images/Screenshot20%2025-11-3020%160150.jpg)
 
-![Smart Search](images/Screenshot 2025-11-30 160108.jpg)
+![Smart Search](images/Screenshot20%2025-11-3020%160108.jpg)
 
 Filter Results
 
 Hotel Details Page
 
-![Results](images/Screenshot 2025-11-30 160239.jpg)
+![Results](images/Screenshot20%2025-11-3020%160239.jpg)
 
-![Details](images/Screenshot 2025-11-30 155955.jpg)
+![Details](images/Screenshot20%2025-11-3020%155955.jpg)
 
 🤝 Contributing
 
