@@ -1,6 +1,6 @@
 🏨 AI-Powered Hotel Recommendation System
 
-![System Architecture](images/image (1).png)
+![System Architecture]('images/image (1).png')
 
 📌 Overview
 
