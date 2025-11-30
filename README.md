@@ -103,11 +103,19 @@ Best Value: Mid-Range category hotels consistently rated above 4.5.
 
 Safety Gap: Only ~25% of hotels offer 24h security or first-aid, highlighting a market opportunity.
 
-📸 App Interface Screenshots
-Main Interface
-NLP Smart Search & Context-Aware Search
-Search Results & Map View
-Hotel Details Page
+## 📸 App Interface Screenshots
+
+### Main Interface
+![Main Interface](images/main.png)
+
+### NLP Smart Search & Context-Aware Search
+![Smart Search and Filtering](images/smart_search.png)
+
+### Search Results & Map View
+![Search Results](images/results.png)
+
+### Hotel Details Page
+![Hotel Details](images/details.png)
 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
