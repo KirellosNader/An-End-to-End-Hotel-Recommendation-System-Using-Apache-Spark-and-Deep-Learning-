@@ -79,7 +79,7 @@ Bash
 python app.py
 Access the dashboard at http://localhost:5000
 
-📂 Project Structure
+###📂 Project Structure
 ├── 📂 data/             # Raw and Processed Data (CSV/Parquet)
 ├── 📂 etl_scripts/      # Spark & Selenium Scripts
 │   ├── scraper_reviews.py   # Reviews Extraction
@@ -103,7 +103,7 @@ Best Value: Mid-Range category hotels consistently rated above 4.5.
 
 Safety Gap: Only ~25% of hotels offer 24h security or first-aid, highlighting a market opportunity.
 
-## 📸 App Interface Screenshots
+### 📸 App Interface Screenshots
 
 ### Main Interface
 ![Main Interface](images/main.png)
