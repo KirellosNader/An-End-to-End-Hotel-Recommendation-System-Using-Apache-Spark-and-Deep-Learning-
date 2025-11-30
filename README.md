@@ -64,7 +64,7 @@ The scatter plot demonstrates the model's ability to track user sentiment closel
 ```bash
 git clone https://github.com/KirellosNader/An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-
 cd An-End-to-End-Hotel-Recommendation-System-Using-Apache-Spark-and-Deep-Learning-
-
+```
 ### Install Dependencies
 pip install -r requirements.txt
 # Key libs: pandas, flask, tensorflow, pyspark, selenium, transformers
